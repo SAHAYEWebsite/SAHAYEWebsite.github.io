@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Sahaye</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Make a Donation</h1>
+        <form id="donationForm">
+            <label for="donorName">Name:</label>
+            <input type="text" id="donorName" name="donorName" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="donationType">Type of Donation:</label>
+            <select id="donationType" name="donationType" required>
+                <option value="Clothes">Clothes</option>
+                <option value="Food">Food</option>
+                <option value="Money">Money</option>
+            </select>
+
+            <label for="reason">Additional Notes:</label>
+            <textarea id="reason" name="reason" rows="4"></textarea>
+
+            <button type="submit">Donate</button>
+        </form>
+    </div>
+</body>
+</html>
